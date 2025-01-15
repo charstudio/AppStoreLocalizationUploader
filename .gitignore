@@ -12,6 +12,10 @@ __pycache__/
 # C extensions
 *.so
 
+# added data folder
+data/
+data/applications
+
 # Distribution / packaging
 .Python
 build/
