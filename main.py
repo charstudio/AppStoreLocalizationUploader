@@ -13,7 +13,7 @@ EXPIRATION_TIME = int(round(time.time() + (20.0 * 60.0)))  # 20 minutes timestam
 MERGED_FILE = 'merged_file.json'
 XLSX_FILE = "TestLocalization.xlsx"
 
-# load .env file to environment
+# load ..env file to environment
 load_dotenv()
 
 # Security keys
