@@ -6,6 +6,7 @@ import os
 import sys
 import pandas as pd
 import common
+from dotenv import load_dotenv
 
 
 EXPIRATION_TIME = int(round(time.time() + (20.0 * 60.0)))  # 20 minutes timestamp
@@ -13,9 +14,9 @@ MERGED_FILE = 'merged_file.json'
 XLSX_FILE = "TestLocalization.xlsx"
 
 # Security keys
-KEY_ID = ""
-ISSUER_ID = ""
-PATH_TO_KEY = ""
+KEY_ID = os.getenv('KEY_ID')
+ISSUER_ID = os.getenv('ISSUER_ID')
+PATH_TO_KEY = os.getenv('PATH_TO_KEY')
 
 
 # Create authorization token

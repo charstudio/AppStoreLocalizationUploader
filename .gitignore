@@ -6,6 +6,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# AppKEY add to ignore
+*.p8
+
 # C extensions
 *.so
 
