@@ -1,2 +1,2 @@
 # AppStoreLocalizationUploader
-tool for fast update version localizations for you application in app strore
+A tool for fast update version localizations for your application in the app store
