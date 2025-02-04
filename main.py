@@ -14,7 +14,7 @@ MERGED_FILE = 'merged_file.json'
 XLSX_FILE = "TestLocalization.xlsx"
 XLSX_IN_APP_EVENTS = "Inn_App_Events.xlsx"
 
-# load .env file to environment
+# load ..env file to environment
 load_dotenv()
 
 # Security keys
