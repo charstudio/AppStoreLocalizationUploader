@@ -10,7 +10,7 @@ if ! command -v python3 &> /dev/null; then
 fi
 
 # Встановлення необхідних бібліотек
-pip3 install -r requirements.txt
+# pip3 install -r requirements.txt
 
 # Запуск main.py
 python3 main.py

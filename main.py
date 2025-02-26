@@ -263,6 +263,8 @@ def load_xlsx_convert_to_app_version_localization(file_location):
             "type": "appStoreVersionLocalizations",
             "attributes": {
                 "locale": row.get("locale"),
+                "description": row.get("description"),
+                "keywords": row.get("keywords"),
                 "promotionalText": row.get("promotionalText"),
                 "whatsNew": row.get("whatsNew")
             }
@@ -344,6 +346,7 @@ def upload_new_app_version_localizations(localization):
 
     if all_successful:
         print("Усі локалізації успішно відправлені.")
+        os.remove(MERGED_FILE)
 
 
 def upload_new_in_app_event_localizations(localization):
@@ -357,6 +360,7 @@ def upload_new_in_app_event_localizations(localization):
 
     if all_successful:
         print("Усі локалізації успішно відправлені.")
+        os.remove(MERGED_FILE)
 
 
 def update_version_localizations_pipeline():
