@@ -180,3 +180,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 merged_file.json
+TestLocalization.xlsx
+Inn_App_Events.xlsx
